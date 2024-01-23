@@ -444,7 +444,7 @@
 									done[q] = true;
 								}
 								else if (a === "cocaine bear"){
-									fates.push(allNames[r] + " 's cocaine bear mauls " + allNames[q] +);
+									fates.push(allNames[r] + " '\s cocaine bear mauls " + allNames[q] +);
 									xKillsY(r,q);
 									done[q] = true;
 								}
@@ -462,15 +462,15 @@
 							}
 							else if (fate === 1){
 								var q = liveChampion(r);
-								if (a === "frisbee"){
+								if (a === "mason jar"){
 									injureTwo(r,q);
 									if (!deathBools[q]){
-										fates.push(allNames[r] + " fatally breaks " + allNames[q] + "\'s nose with a frisbee.");
+										fates.push(allNames[r] + " breaks " + allNames[q] + "\'s nose with a mason jar.");
 										done[q] = true;
 										summary.push(fates[fates.length-1]);
 									}
 									else {
-										fates.push(allNames[r] + " breaks " + allNames[q] + "\'s nose with a frisbee.");
+										fates.push(allNames[r] + " breaks " + allNames[q] + "\'s nose with a mason jar.");
 									}
 								}
 								else if (a === "tank"){
