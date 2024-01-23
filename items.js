@@ -157,7 +157,7 @@ var killCauseAndEffect =
 "basketball",
 "dunks on",
 "cocaine bear",
-"'s cocaine bear mauls",
+"mauls",
 "fidget spinner",
 "spins fidget spinner fatally at",
 "assault rifle",
