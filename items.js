@@ -7,7 +7,7 @@ var weapons =
 "cocaine bear",
 "fidget spinner",
 "assault rifle",
-"frisbee",
+"mason jar",
 "tank"];
 
 var melee =
@@ -162,7 +162,7 @@ var killCauseAndEffect =
 "spins fidget spinner fatally at",
 "assault rifle",
 "shoots",
-"frisbee",
+"mason jar",
 "decapitates",
 "tank",
 "murders"];
@@ -306,8 +306,8 @@ var injEffect =
 "gets juked by",
 "cocaine bear",
 "mauls",
-"fidget spinner",
-"spins fidget spinner nonfatally at",
+"mason jar",
+"puts",
 "assault rifle",
 "shoots and grazes"];
 
